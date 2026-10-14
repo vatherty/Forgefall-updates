@@ -1,0 +1,6 @@
+{
+ "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.8.0-debug.apk",
+ "changelog": "- LLM MOD CREATION: new Create Mod option in the Mods tab \u2014 describe a mod idea and the LLM creates it as a JSON block or GDScript mod. Nothing installs without your Install tap: you review a plain-language summary + the full code first.\n- Generated mods go through the same strict validation as hand-written mods (schema + forbidden-API scan). Invalid generations are rejected, never installed.\n- Installed LLM-made mods are normal mods: they appear in the Mods tab and the LLM can compose with them in later Forge requests.\n- No other gameplay changes in this build.",
+ "version_code": 20,
+ "version_name": "0.8.0"
+}
