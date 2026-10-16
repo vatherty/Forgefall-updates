@@ -1,7 +1,7 @@
 {
-  "changelog": "Mod sharing v0.5.10: Create-a-Mod's Import/Export tab is real \u2014 Export any installed mod to one MOD1- share code (full payload + hook scripts + voxel assets, mod-only, no key/secrets); Import runs the same validation + approval, with Replace / Keep Both (block mods _copy, script mods _2). Duplicate-block_id Keep Both dead end fixed \u2014 copies get their block_id rewritten and re-validated, so original and copy load side by side.",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.10-linux.zip",
-  "version_code": 36,
-  "version_name": "0.5.10",
-  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.10-windows.zip"
+  "changelog": "Burst + chain v0.5.11: Fixed the '3-round burst lightning gun' generation failure \u2014 generation no longer fails with \"unknown block field 'hooks'\" (hooks nested inside the block now validate). New BURST fire mode (fire_mode + burst_size \u2014 one trigger press fires N rounds) and CHAIN projectiles (chain_targets / chain_radius / chain_falloff / element \u2014 each hit jumps to a nearby enemy for falloff damage with the element rider).",
+  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.11-linux.zip",
+  "version_code": 37,
+  "version_name": "0.5.11",
+  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.11-windows.zip"
 }
