@@ -1,7 +1,7 @@
 {
-  "changelog": "LLM-authored hook scripts: when the effect table doesn't cover the request, the LLM may now author a GDScript hook (extends ModHook) for the mod \u2014 data hooks are still preferred whenever they can express it. Hook scripts may call ONLY the ModAPI allowlist; anything else is rejected with the violation named. Step/time budget (200 calls / 100 ms per run, 250 ms per dispatch) with visible disable. Approval shows the script source + LLM-authored label; the sandbox runs code hooks and reports them. Pull/vortex verified end-to-end. Honest limit: a tight loop with no API calls cannot be preempted.",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.6-linux.zip",
-  "version_code": 32,
-  "version_name": "0.5.6",
-  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.6-windows.zip"
+  "changelog": "Effect table expanded: poison, bleed, regen, haste, restrained, prone, sleep, confusion, blind, weaken, exhaustion, pull + 9 D&D damage types with real riders \u2014 all genuinely implemented, no lookalikes. Structures: full catalog in the Forge prompt, real diagonal/rotated placement (build a diagonal ramp), and inexpressible geometry gets a visible refusal or labeled approximation \u2014 never a silent wrong build. Deliberate omissions (stun, petrified, shield, etc.) documented in BUILD_LOG.",
+  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.7-linux.zip",
+  "version_code": 33,
+  "version_name": "0.5.7",
+  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.7-windows.zip"
 }
