@@ -1,7 +1,7 @@
 {
-  "changelog": "D&D 5e comes to FORGEFALL: 14 creature types with real enforced immunities/resistances (constructs ignore poison, fiends resist fire/cold/lightning), ability scores on every enemy, 12 playable classes swappable mid-match via Forge prompt ('make me a rogue') or the new CLASS tab, 10 elemental emitters (fire/cold/lightning/acid/poison/radiant/necrotic/thunder/force/water) from Forge structures, elemental turrets/weapons, and mods \u2014 with real interactions (water extinguishes burn, lightning chains off wet targets) \u2014 plus 8 spell-school tags for spell-like mods. DOT ticks are now typed damage (burn=fire, poison=poison, bleed=slashing) so creature resistances apply to them too.",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.8-linux.zip",
-  "version_code": 34,
-  "version_name": "0.5.8",
-  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.8-windows.zip"
+  "changelog": "Forge loops v0.5.9: new BASE DEFENSE mode \u2014 build phase, then defend a 1000-HP voxel core against waves (Forge structures absorb damage first; player death redeploys, the run ends when the core falls). Installed JSON weapon-mods are now first-class weapons in Arsenal/Loadouts (mod:<id>). Edit installed mods in the Mods tab with a diff approval (e.g. Version 1.0 -> 1.1) before installing the update. New take_damage hook: shield / vulnerable / thorns / petrified, resolved before damage applies. MAKE parity: MAKE builds now go through ForgeManager (history, shared undo, MP-sync, PLACED STRUCTURES listing) and script-shaped MAKE works in-session via session code loading \u2014 no file I/O, peers never auto-run another peer's code.",
+  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.9-linux.zip",
+  "version_code": 35,
+  "version_name": "0.5.9",
+  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.9-windows.zip"
 }
