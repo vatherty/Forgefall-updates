@@ -1,6 +1,6 @@
 {
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.4-debug.apk",
-  "changelog": "Chat in Create-a-Mod: new CHAT tab (CREATE / CHAT / MODS / IMPORT-EXPORT) with message bubbles, suggested prompts, CLEAR / NEW CHAT, and CREATE FROM CHAT. Chat and Create share one session (last 20 messages, saved across restarts). Answers grounded in the true capability list. Same DeepSeek key; no key or LLM failure shows a visible error - no silent fallback. Chat never installs anything.",
-  "version_code": 30,
-  "version_name": "0.5.4"
+  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.5-debug.apk",
+  "changelog": "Status effects for invented hooks: slow, freeze, burn, and knockback are now real in-game (they apply on on_hit / on_kill or on_damage_taken). The sandbox reports them, e.g. 'SLOWED: dummy speed 4.0 -> 2.0 m/s for 3.0s.' The generation prompt no longer substitutes smoke/announce for slowing. CONTRIBUTING.md documents how to add a new effect kind.",
+  "version_code": 31,
+  "version_name": "0.5.5"
 }
