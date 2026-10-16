@@ -1,6 +1,6 @@
 {
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.2-debug.apk",
-  "changelog": "Creator fix: sandbox now flies the candidate's projectile (not a generic launcher); Mods lists fixed in both Create-a-Mod and Forge menus (were invisible at 0px); installed mods show up immediately.",
-  "version_code": 28,
-  "version_name": "0.5.2"
+  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.3-debug.apk",
+  "changelog": "Forge MAKE: one-box session-scoped creation in the Forge menu (never saved). Create-a-Mod can now invent hooks when nothing exists. Custom projectiles fire in the real game (laser beams, exploding watermelons). Approval lists invented hooks explicitly.",
+  "version_code": 29,
+  "version_name": "0.5.3"
 }
