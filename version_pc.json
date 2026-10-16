@@ -1,7 +1,7 @@
 {
-  "changelog": "Effect table expanded: poison, bleed, regen, haste, restrained, prone, sleep, confusion, blind, weaken, exhaustion, pull + 9 D&D damage types with real riders \u2014 all genuinely implemented, no lookalikes. Structures: full catalog in the Forge prompt, real diagonal/rotated placement (build a diagonal ramp), and inexpressible geometry gets a visible refusal or labeled approximation \u2014 never a silent wrong build. Deliberate omissions (stun, petrified, shield, etc.) documented in BUILD_LOG.",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.7-linux.zip",
-  "version_code": 33,
-  "version_name": "0.5.7",
-  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.7-windows.zip"
+  "changelog": "D&D 5e comes to FORGEFALL: 14 creature types with real enforced immunities/resistances (constructs ignore poison, fiends resist fire/cold/lightning), ability scores on every enemy, 12 playable classes swappable mid-match via Forge prompt ('make me a rogue') or the new CLASS tab, 10 elemental emitters (fire/cold/lightning/acid/poison/radiant/necrotic/thunder/force/water) from Forge structures, elemental turrets/weapons, and mods \u2014 with real interactions (water extinguishes burn, lightning chains off wet targets) \u2014 plus 8 spell-school tags for spell-like mods. DOT ticks are now typed damage (burn=fire, poison=poison, bleed=slashing) so creature resistances apply to them too.",
+  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.8-linux.zip",
+  "version_code": 34,
+  "version_name": "0.5.8",
+  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.8-windows.zip"
 }
