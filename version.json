@@ -1,6 +1,6 @@
 {
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.9-debug.apk",
-  "changelog": "Forge loops v0.5.9: new BASE DEFENSE mode \u2014 build phase, then defend a 1000-HP voxel core against waves (Forge structures absorb damage first; player death redeploys, the run ends when the core falls). Installed JSON weapon-mods are now first-class weapons in Arsenal/Loadouts (mod:<id>). Edit installed mods in the Mods tab with a diff approval (e.g. Version 1.0 -> 1.1) before installing the update. New take_damage hook: shield / vulnerable / thorns / petrified, resolved before damage applies. MAKE parity: MAKE builds now go through ForgeManager (history, shared undo, MP-sync, PLACED STRUCTURES listing) and script-shaped MAKE works in-session via session code loading \u2014 no file I/O, peers never auto-run another peer's code.",
-  "version_code": 35,
-  "version_name": "0.5.9"
+  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.10-debug.apk",
+  "changelog": "Mod sharing v0.5.10: Create-a-Mod's Import/Export tab is real \u2014 Export any installed mod to one MOD1- share code (full payload + hook scripts + voxel assets, mod-only, no key/secrets); Import runs the same validation + approval, with Replace / Keep Both (block mods _copy, script mods _2). Duplicate-block_id Keep Both dead end fixed \u2014 copies get their block_id rewritten and re-validated, so original and copy load side by side.",
+  "version_code": 36,
+  "version_name": "0.5.10"
 }
