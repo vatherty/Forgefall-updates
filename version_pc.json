@@ -1,7 +1,1 @@
-{
-  "changelog": "Burst + chain v0.5.11: Fixed the '3-round burst lightning gun' generation failure \u2014 generation no longer fails with \"unknown block field 'hooks'\" (hooks nested inside the block now validate). New BURST fire mode (fire_mode + burst_size \u2014 one trigger press fires N rounds) and CHAIN projectiles (chain_targets / chain_radius / chain_falloff / element \u2014 each hit jumps to a nearby enemy for falloff damage with the element rider).",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.11-linux.zip",
-  "version_code": 37,
-  "version_name": "0.5.11",
-  "windows_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.11-windows.zip"
-}
+{"changelog":"Unified Forge v0.5.12: ONE Forge box — type anything: if it exists, it spawns; if not, it's made for this match. Fixed 'weapon id missing' — installed mods (like the taquito launcher) now spawn from the Forge menu instead of being rejected. MAKE only fires as a fallback when Forge says 'Don't know'; refusals and validation errors never trigger a generation. Script mods now work in Loadouts via the same give path as Forge, including a script mod in the secondary slot without clobbering primary. Longest-match name resolution — 'give me the taquito launcher script' now finds the script mod, not the JSON one.","linux_url":"https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.12-linux.zip","version_code":38,"version_name":"0.5.12","windows_url":"https://vatherty.github.io/Forgefall-updates/forgefall-v0.5.12-windows.zip"}
