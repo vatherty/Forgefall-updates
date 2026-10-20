@@ -1,7 +1,7 @@
 {
-  "version_code": 44,
-  "version_name": "0.6.5",
-  "windows_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.5/forgefall-v0.6.5-windows.zip",
-  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.5-linux.zip",
-  "changelog": "v0.6.5: Deploy loading screen \u2014 deploying no longer looks frozen. A staged DEPLOYING screen now shows real progress on every deploy path (single player, modes, multiplayer host/join, puzzles), and if a stage ever hangs, its label stays frozen in place so you can see exactly where it got stuck. Also fixed under the hood: the web warmup's pool precache silently failed in the real game (pools stayed lazy \u2014 warmup's whole point), warmup emitters could damage real enemies, puzzle deploy wrongly started a WaveManager, and deploy now validates before freeing the menu (fixes a black-screen bug). Web build updated too."
+  "version_code": 45,
+  "version_name": "0.6.6",
+  "windows_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.6/forgefall-v0.6.6-windows.zip",
+  "linux_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.6-linux.zip",
+  "changelog": "v0.6.6: New mobile HUD (designed and built by Colin's GPT/Codex session; verified, merged and published by Sparky). Touch controls rebuilt: procedural icon buttons, FIRE-drag aiming (drag on FIRE to aim while shooting), always-visible joystick base, PLACE/USE and CANCEL buttons for Forge placement, a weapon SWAP button, event-driven pause/interact buttons, and a touch-specific HUD layout. Intake verification re-proved the tap-can-never-fire guarantee in every state (menu, deploy, Forge open, pause, death) with a new behavioral suite, re-anchored touch fonts to the shared UiScale, and kept the project default emulate_mouse_from_touch OFF (menus enable it at runtime only). Web build updated too."
 }
