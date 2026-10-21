@@ -1,6 +1,6 @@
 {
-  "version_code": 45,
-  "version_name": "0.6.6",
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.6-debug.apk",
-  "changelog": "v0.6.6: New mobile HUD (designed and built by Colin's GPT/Codex session; verified, merged and published by Sparky). Touch controls rebuilt: procedural icon buttons, FIRE-drag aiming (drag on FIRE to aim while shooting), always-visible joystick base, PLACE/USE and CANCEL buttons for Forge placement, a weapon SWAP button, event-driven pause/interact buttons, and a touch-specific HUD layout. Intake verification re-proved the tap-can-never-fire guarantee in every state (menu, deploy, Forge open, pause, death) with a new behavioral suite, re-anchored touch fonts to the shared UiScale, and kept the project default emulate_mouse_from_touch OFF (menus enable it at runtime only). Web build updated too."
+  "version_code": 46,
+  "version_name": "0.6.7",
+  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.7-debug.apk",
+  "changelog": "v0.6.7: New in-game Settings menu (built by Colin; verified, merged and published by Sparky). Five tabs: Controls (look/ADS sensitivity, invert Y, bindings), Audio (master/music/SFX/menu volumes), Display (FOV, quality, vsync, fullscreen), Mobile (touch sensitivity, button opacity, vibration), and Forge AI \u2014 the DeepSeek key entry now lives in Settings (main menu + pause, masked, save/remove), fixing the unreachable key entry on Windows. Settings apply immediately and persist; reset keeps your key and bindings. Menus use native touch-to-mouse emulation per Colin's ruling; the tap-can-never-fire safety was re-proven 23/23 (runtime toggling + deploy-first gameplay mode + menu binding-erase). Web build updated too."
 }
