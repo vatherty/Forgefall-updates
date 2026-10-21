@@ -1,0 +1,23 @@
+name: ingest-artifacts
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Download staged artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download ingest-v0.6.8 --pattern 'forgefall-v0.6.8-debug.apk' --pattern 'forgefall-v0.6.8-linux.zip'
+      - name: Commit artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add forgefall-v0.6.8-debug.apk forgefall-v0.6.8-linux.zip
+          git commit -m "FORGEFALL v0.6.8 artifacts (code 47): APK + Linux zip"
+          git push
