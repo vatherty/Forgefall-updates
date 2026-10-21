@@ -1,6 +1,6 @@
 {
-  "version_code": 46,
-  "version_name": "0.6.7",
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.7-debug.apk",
-  "changelog": "v0.6.7: New in-game Settings menu (built by Colin; verified, merged and published by Sparky). Five tabs: Controls (look/ADS sensitivity, invert Y, bindings), Audio (master/music/SFX/menu volumes), Display (FOV, quality, vsync, fullscreen), Mobile (touch sensitivity, button opacity, vibration), and Forge AI \u2014 the DeepSeek key entry now lives in Settings (main menu + pause, masked, save/remove), fixing the unreachable key entry on Windows. Settings apply immediately and persist; reset keeps your key and bindings. Menus use native touch-to-mouse emulation per Colin's ruling; the tap-can-never-fire safety was re-proven 23/23 (runtime toggling + deploy-first gameplay mode + menu binding-erase). Web build updated too."
+  "version_code": 47,
+  "version_name": "0.6.8",
+  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.8-debug.apk",
+  "changelog": "v0.6.8: Colin's effects update — shipped exactly as provided in FORGEFALL-source-with-effects.zip per his instruction. Web build updated too."
 }
