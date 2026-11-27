@@ -1,6 +1,6 @@
 {
-  "version_code": 47,
-  "version_name": "0.6.8",
-  "apk_url": "https://vatherty.github.io/Forgefall-updates/forgefall-v0.6.8-debug.apk",
-  "changelog": "v0.6.8: Colin's effects update — shipped exactly as provided in FORGEFALL-source-with-effects.zip per his instruction. Web build updated too."
+  "version_code": 48,
+  "version_name": "0.6.9",
+  "apk_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.9/forgefall-v0.6.9-debug.apk",
+  "changelog": "v0.6.9 TEST BUILD: Bug bash \u2014 per-weapon sights with ACOG + red-dot picture-in-picture lenses, movement fixes, real skyboxes, out-of-bounds rules, 4 bot skill tiers. NEW: graphics tiers \u2014 Settings > DISPLAY > GRAPHICS: High adds real-time shadows, colour grading, glow, grit + AO, decals, MSAA 4x. Deck-verified 60fps at High; try High on mobile and report how it runs."
 }
