@@ -1,7 +1,7 @@
 {
-  "version_code": 48,
-  "version_name": "0.6.9",
-  "windows_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.9/forgefall-v0.6.9-windows.zip",
-  "linux_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.9/forgefall-v0.6.9-linux.zip",
-  "changelog": "v0.6.9 TEST BUILD: Bug bash \u2014 per-weapon sights with ACOG + red-dot picture-in-picture lenses, movement fixes, real skyboxes, out-of-bounds rules, 4 bot skill tiers. NEW: graphics tiers \u2014 Settings > DISPLAY > GRAPHICS: High adds real-time shadows, colour grading, glow, grit + AO, decals, MSAA 4x. Deck-verified 60fps at High; try High on mobile and report how it runs."
+  "version_code": 49,
+  "version_name": "0.6.10",
+  "windows_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.10/forgefall-v0.6.10-windows.zip",
+  "linux_url": "https://github.com/vatherty/FORGEFALL/releases/download/v0.6.10/forgefall-v0.6.10-linux.zip",
+  "changelog": "v0.6.10 TEST BUILD: Feel wave \u2014 every gun has weight now. Heavier gun = slower move/accel and a literally wider hitbox (LMG +25% radius). Viewmodel runs on springs: reloads are choreographed, the gun dips when you land, recoil settles with a spring overshoot, sprint carries a lowered ready pose. Swap P9 <-> LMG in TDM and report how it feels."
 }
